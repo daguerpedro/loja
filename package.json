@@ -1,0 +1,32 @@
+{
+  "name": "loja",
+  "version": "1.0.0",
+  "description": "Sample webstore",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript",
+    "web",
+    "webstore",
+    "backend",
+    "frontend",
+    "html",
+    "css",
+    "api",
+    "express",
+    "database"
+  ],
+  "author": "Daguer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "sqlite3": "^5.1.7"
+  }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
+
+    <script src="/scripts/page.js"></script>
+    <link rel="stylesheet" href="styles/produtos.css">
+</head>
+
+<body>
+    <div class="ui fixed menu">
+        <div class="item">
+            <i class="ring icon"></i> LOJA
+        </div>
+        <div class="center menu">
+            <div class="item">
+                <div class="ui search" id="shopsearch">
+                    <div class="ui icon input">
+                        <input class="prompt" type="text" placeholder="Procurando algo?">
+                        <i class="search icon"></i>
+                    </div>
+                    <div class="results">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <button id="bag" class="ui icon basic button">
+                <i class="shopping bag icon"></i>
+                Sacola
+            </button>
+        </div>
+    </div>
+
+    <div class="space" style="padding: 75px;">
+
+    </div>
+
+    <div class="ui right flyout" id="bagflyout">
+        <i class="close icon"></i>
+        <div class="ui header">
+            <i class="shopping cart icon"></i>
+            <div class="content">
+                Carrinho de compras
+            </div>
+        </div>
+        <div class="content">
+            <p>Your inbox is getting full, would you like us to enable automatic archiving of old messages?</p>
+        </div>
+    </div>
+
+    <div class="ui container">
+        <h1 class="ui centered header">Veja alguns produtos</h1>
+        <div class="ui grid centered column container" id="prodshow">
+            <div class="column">
+                <div class="ui loading big card prod">
+                    <a class="image" href="#">
+                        <div class="ui slide masked reveal centered small image">
+                            <img src="/images/indisponivel.png" class="visible content">
+                        </div>
+                        <div class="content">
+                            <a class="header">Carregando</a>
+                            <div class="meta desc">
+                                <span class="date">Preparando produtos!</span>
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <i class="dollar sign icon"></i>0 brl
+                            <span class="right floated">
+                                <i class="cart plus icon"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ui divider"></div>
+        <div class="ui centered grid container">
+            <button class="ui primary button" style="margin: 25px 0px;">
+                Mais produtos.
+            </button>
+        </div>
+    </div>
+
+    <div class="ui modal">
+        <i class="close icon"></i>
+        <div class="header" id="bigprodtitle"></div>
+        <div class="image content">
+            <div class="ui medium image">
+                <img src="" id="bigprodimage">
+            </div>
+            <div class="description">
+                <div class="ui header">Sobre este produto:</div>
+                <p id="bigproddesc"></p>
+            </div>
+        </div>
+        <div class="actions">
+            <button class="ui positive right labeled icon button">
+                Yep, that's me
+                <i class="checkmark icon"></i>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
