@@ -1,3 +1,5 @@
+//TODO: DOCUMENTATION
+
 products = []
 bag = {
     items: [],
@@ -60,12 +62,12 @@ $(document).ready(function () {
             let product = products.find(prod => prod.id = $(this).attr('pid'));
             showproductmodal(product)
         })
-    }).fail(() => {
+    }).fail((v) => {
         $.toast({
             class: 'error',
-            title: 'Error',
+            title: v.statusText,
             showIcon: 'exclamation triangle',
-            message: `Vailed to get products from server!`
+            message: `Vailed to get products from server!<br>Status: ${v.status}<br>Message:${v.responseText}`
         });
     })
 
