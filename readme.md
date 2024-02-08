@@ -13,9 +13,10 @@ Com o objetivo de aumentar meu portfólio, desenvolvi esta loja web com o front-
 # Como usar
 Crie um arquivo .env e adicione:  
 > SESSION_SECRET="EDITE AQUI"
-> PORT=80   
+> PORT=80
+  
 Após isso abra um terminal no diretório do projeto e execute:  
-> npm install 
+> npm install  
 > npm run start 
    
 # Como é?  
