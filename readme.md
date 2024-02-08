@@ -9,7 +9,6 @@ Com o objetivo de aumentar meu portfólio, desenvolvi esta loja web com o front-
 - Adicionar ao carrinho
 - Remover do carrinho
 - Limpar carrinho
-- Pagamento via PIX.
 
 # Como é?  
 ![home](https://github.com/daguerpedro/loja/blob/master/preview/home.png)  
