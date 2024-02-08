@@ -1,9 +1,21 @@
-# Main goal  
-Creating my first store as a portfolio, based on HTML, CSS, JS and EXPRESS.
+# Objetivo
+Com o objetivo de aumentar meu portfólio, desenvolvi esta loja web com o front-end em HTML CSS JS, e o back-end usando NodeJS e Express.  
   
-Able to list products, create products, update products, search products, add to cart, remove from cart, clear cart, payment check. 
+# Funcionalidades
+- Listar produtos
+- Criar produtos
+- Atualizar produtos
+- Pesquisar por produtos
+- Adicionar ao carrinho
+- Remover do carrinho
+- Limpar carrinho
 
-# Tools used to develop.  
+# Como é?  
+![home](https://github.com/daguerpedro/loja/blob/master/preview/home.png)  
+![product](https://github.com/daguerpedro/loja/blob/master/preview/product.png)  
+![cart](https://github.com/daguerpedro/loja/blob/master/preview/cart.png)  
+  
+# Ferramentas utilizadas
 https://fomantic-ui.com/  
 https://sqliteonline.com/  
 https://www.postman.com/  
