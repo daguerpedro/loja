@@ -3,8 +3,6 @@ Com o objetivo de aumentar meu portfólio, desenvolvi esta loja web com o front-
   
 # Funcionalidades
 - Listar produtos
-- Criar produtos
-- Atualizar produtos
 - Pesquisar por produtos
 - Adicionar ao carrinho
 - Remover do carrinho
