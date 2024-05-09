@@ -14,7 +14,6 @@ let db = new sqlite3.Database(path.join(__dirname, '../databases/store.db'), (er
 
 getProducts = (limit = 10, callback) => {
   db.all("SELECT * FROM products LIMIT ?", limit, function (err, row) {
-    //TODO: BETTER IMPLEMENTATION
     if (err) return console.log(err)
     callback(row)
   })
